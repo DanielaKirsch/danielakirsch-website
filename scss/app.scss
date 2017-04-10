@@ -1,0 +1,152 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import '../bower_components/foundation-sites/scss/foundation';
+@import '../bower_components/motion-ui/motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+
+.marketing-hero {
+    overflow: visible;
+    padding: 2.5rem 0 4.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.hero-main-header {
+	
+	color: #FFF;
+
+}
+
+.socialmedia img{
+	width: 100%;
+	height: auto;
+
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.smaller {
+	font-size: 0.8rem;
+}
+
+.press {
+
+	img {
+		width: 100%;
+	}
+
+}
+
+h5 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.socialmedia span {
+	width: 100%;
+	display: block;
+	padding-top: 10px;
+}
+
+h1.hero-main-header {
+	font-family: 'Montserrat', sans-serif;
+	
+}
+h2.hero-main-header {
+	
+	font-style: italic;
+}
+
+.hero-main-header a{
+	color: #fff;
+	
+	&:hover {
+		color: #ff0054;
+	}
+	
+}
+
+main {
+	padding-top: 40px;
+
+	h2 {
+		color: #ff0054;
+
+		margin-top: 100px;
+
+	}
+}
+
+
+.marketing-hero.home-large-hero {
+    background: url(../images/daniela-kirsch_web3.jpg) bottom center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 43.75em) {
+
+	.marketing-hero.home-large-hero {
+	    
+	    background-position: center;
+	    background-size: cover;
+	    padding-bottom: 350px;
+	    padding-top: 280px;
+	}
+
+}
+
+
+
+
+
+
+

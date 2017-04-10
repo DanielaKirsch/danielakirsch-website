@@ -1,0 +1,24 @@
+{
+  "name": "daniela-kirsch",
+  "version": "0.1.0",
+  "description": "Daniela Kirsch",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "2.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielaKirsch/danielakirsch-website.git"
+  },
+  "author": "Daniela Kirsch<daniela@nameface.com>",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-sites": "^6.3.1"
+  }
+}
