@@ -120,22 +120,40 @@ main {
 
 	h2 {
 		color: #ff0054;
-
+		font-size: 1.5rem;
 		margin-top: 100px;
 
 	}
 }
 
+.menu {
+	background-color: #ff0054;
+
+	a {
+		color: #FFF;
+		font-size: 18px;
+		padding: 5px;
+	}
+}
+
+h4.work {
+
+	color: white;
+    background-color: #ff0054;
+    padding: 10px;
+    font-weight: bold;
+}
+
 
 .marketing-hero.home-large-hero {
-    background: url(../images/daniela-kirsch_web3.jpg) bottom center;
+    background: url(../images/daniela-kirsch_web_small.jpg) bottom center;
     background-size: cover;
 }
 
 @media screen and (min-width: 43.75em) {
 
 	.marketing-hero.home-large-hero {
-	    
+	    background: url(../images/daniela-kirsch_web3.jpg) bottom center;
 	    background-position: center;
 	    background-size: cover;
 	    padding-bottom: 350px;
