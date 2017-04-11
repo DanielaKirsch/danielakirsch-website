@@ -115,6 +115,46 @@ h2.hero-main-header {
 	
 }
 
+form {
+	margin-top: 25px;
+	padding: 10px;
+	background-color: #9fbaeb;
+}
+
+.message {
+	color: #ff0054;
+	background-color: white;
+	padding: 30px;
+}
+
+.fontsmall {
+	
+	font-size: 14px;
+}
+
+.button {
+	border: white;
+	margin-bottom:15px;
+}
+
+.hireme-box {
+	
+	background-color: #ff0054;
+	z-index: 999;
+	top:0;
+	padding: 13px;
+
+	p {
+		margin-bottom: 0;
+	}
+
+	h4 {
+		color: white;
+		margin-bottom: 10px;
+	}
+
+}
+
 main {
 	padding-top: 40px;
 
@@ -126,6 +166,17 @@ main {
 	}
 }
 
+nav {
+	background-color: #ff0054;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+
+	.row {
+		margin-top:0;
+	}
+}
+
 .menu {
 	background-color: #ff0054;
 
@@ -133,6 +184,14 @@ main {
 		color: #FFF;
 		font-size: 18px;
 		padding: 5px;
+
+	}
+
+	li:hover {
+		background-color: #fff;
+		a {
+			color: #ff0054;
+		}
 	}
 }
 
@@ -144,10 +203,10 @@ h4.work {
     font-weight: bold;
 }
 
-
 .marketing-hero.home-large-hero {
     background: url(../images/daniela-kirsch_web_small.jpg) bottom center;
     background-size: cover;
+
 }
 
 @media screen and (min-width: 43.75em) {
@@ -159,6 +218,14 @@ h4.work {
 	    padding-bottom: 350px;
 	    padding-top: 280px;
 	}
+}
+
+
+@media screen and (min-width: 65em) {
+	.hireme-box {
+	position: fixed;
+
+}
 
 }
 

@@ -2217,7 +2217,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: #cacaca; }
+  color: #ff0054; }
 
 input:disabled, input[readonly],
 textarea:disabled,
@@ -4767,6 +4767,34 @@ h2.hero-main-header {
   .hero-main-header a:hover {
     color: #ff0054; }
 
+form {
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #9fbaeb; }
+
+.message {
+  color: #ff0054;
+  background-color: white;
+  padding: 30px; }
+
+.fontsmall {
+  font-size: 14px; }
+
+.button {
+  border: white;
+  margin-bottom: 15px; }
+
+.hireme-box {
+  background-color: #ff0054;
+  z-index: 999;
+  top: 0;
+  padding: 13px; }
+  .hireme-box p {
+    margin-bottom: 0; }
+  .hireme-box h4 {
+    color: white;
+    margin-bottom: 10px; }
+
 main {
   padding-top: 40px; }
   main h2 {
@@ -4774,12 +4802,24 @@ main {
     font-size: 1.5rem;
     margin-top: 100px; }
 
+nav {
+  background-color: #ff0054;
+  position: fixed;
+  z-index: 999;
+  width: 100%; }
+  nav .row {
+    margin-top: 0; }
+
 .menu {
   background-color: #ff0054; }
   .menu a {
     color: #FFF;
     font-size: 18px;
     padding: 5px; }
+  .menu li:hover {
+    background-color: #fff; }
+    .menu li:hover a {
+      color: #ff0054; }
 
 h4.work {
   color: white;
@@ -4798,5 +4838,9 @@ h4.work {
     background-size: cover;
     padding-bottom: 350px;
     padding-top: 280px; } }
+
+@media screen and (min-width: 65em) {
+  .hireme-box {
+    position: fixed; } }
 
 /*# sourceMappingURL=style.css.map */
