@@ -172,7 +172,7 @@
 
     <p class="fontsmall">Daniela Kirsch <br>
     Long Beach, NY<br>
-    718 679 8799<br>
+    718 679 8277<br>
     daniela@nameface.com</p>
 
     </form>
