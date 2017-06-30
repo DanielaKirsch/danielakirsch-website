@@ -145,53 +145,6 @@
     </div>
 </header>
 
-<div class="hireme-box">
-    
-   
-
-    
-
-    <?php 
-
-    if(isset($message) && $message == "") {
-
-
-
-    ?>
-
-     <h4>Need a Freelance Coder?</h4>
-    <h4>Contact Me!</h4>
-
-    <form action="index.php" method="post" id="submitform">
-        
-    <input type="text" name="email" placeholder="Your Email">
-
-   
-
-    <input type="submit" name="submit" value="Send" class="button small" id="sendemail" onClick="fbq('track', 'Lead');">
-
-    <p class="fontsmall">Daniela Kirsch <br>
-    Long Beach, NY<br>
-    718 679 8277<br>
-    daniela@nameface.com</p>
-
-    </form>
-
-    <?php
-
-    }
-    else {
-    ?>
-
-
-<p class="message"><?php print($message); ?></p>
- <?php
-
-    }
-    
-    ?>
-
-</div>
 
 
 
