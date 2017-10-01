@@ -36,8 +36,9 @@
         <meta itemprop="image" content="http://danielakirsch.com/images/daniela-kirsch_web3.jpg">
 
 
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans' rel='stylesheet' type='text/css'>
-      
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans|Playfair+Display|Poppins' rel='stylesheet' type='text/css'>
+    
+
         <link rel="stylesheet" media="all" type="text/css" href="css/style.min.css">
 
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -130,7 +131,7 @@
 
 <header class="marketing-hero home-large-hero">
     <div class="row">
-        <div class="small-8 medium-6 medium-offset-1 large-offset-2 end columns">
+        <div class="small-8 medium-6 medium-offset-3 end columns">
             <p class="hero-main-header">Hey, I'm</p>
             <h1 class="hero-main-header">Daniela Kirsch</h1>
             
@@ -138,7 +139,7 @@
     </div>
 
     <div class="row">
-        <div class="small-6 medium-offset-1 large-offset-2 end columns">
+        <div class="small-6 medium-offset-3  end columns">
             <p class="hero-main-header">NYC Freelance Full Stack Web-Developer <br>& Founder of <a href='http://nameface.com' >NameFace.com</a></p>
              
         </div>
@@ -155,24 +156,22 @@
 
         <div class="small-12 medium-4 columns">
 
-            <img src="images/i-love-coding.jpg" alt="I love coding!">
+            <img src="images/danielakirsch.jpg" alt="I love coding!">
 
         </div>
 
         <div class="small-12 medium-8 end columns">
           
-            <p>Full Stack Web-Developer with over 17+ years experience in coding, planning, overseeing and managing web projects in the startup, ad agency, and entertainment industry. Proven record of 50+ web projects from zero to online.</p>
+            <p>I'm a Full Stack Web-Developer with over 17+ years experience in coding, planning and managing web projects in the startup, ad agency, and entertainment industry. Proven record of 50+ web projects from zero to online.</p>
 
             <p>I'm a fast learner, very adaptable, hands-on mentality, always curious, strong work ethic, dedicated, excel in time-sensitive projects, organized, cosmopolitan, social media savvy.</p>
 
-        </div>
-
-        <div class="small-12 end columns">
+        
 
             
-            <p class="text-center">I'm looking forward to working on your projects!</p>
+            <p>I'm looking forward to working on your projects!</p>
 
-            <p class="text-center">Contact me: <a href="mailto:daniela@nameface.com">daniela@nameface.com</a></p>
+            <p >Contact me: <a href="mailto:daniela@nameface.com">daniela@nameface.com</a></p>
             
         </div>
     </div>
@@ -235,10 +234,10 @@
         </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="small-12 end columns">
           
-            <h2 class="text-center">I'm based in New York City & Puerto Rico and I'm originally from Berlin, Germany.</h2>
+            <h2 class="text-center">I'm based in New York City and I'm originally from Berlin, Germany.</h2>
 
             <p class="text-center">I have a valid working permit for the USA! (just in case you were wondering...)</p>
             
@@ -251,7 +250,7 @@
         </div>
 
         <div class="small-12 medium-4 columns">
-        <img src="images/newyork.jpg" alt="Daniela in New York City">
+        <img src="images/newyork.jpg" alt="Daniela in New York City"> 
         <img src="images/party.jpg" alt="Daniela at a concert">
       
         </div>
@@ -266,7 +265,7 @@
 
 
 
-    </div>
+    </div> -->
 <!-- 
     <div class="row">
          <div class="small-12 end columns">
@@ -298,7 +297,7 @@
     <div class="row">
          <div class="small-12 end columns">
           
-            <h2 class="text-center">Daniela on Social Media</h2>
+            <h2 class="text-center">Social Media</h2>
             
         </div>
 

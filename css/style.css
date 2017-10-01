@@ -4828,16 +4828,16 @@ h4.work {
   font-weight: bold; }
 
 .marketing-hero.home-large-hero {
-  background: url(../images/daniela-kirsch_web_small.jpg) bottom center;
+  background: url(../images/bg2.jpg) bottom center;
   background-size: cover; }
 
 @media screen and (min-width: 43.75em) {
   .marketing-hero.home-large-hero {
-    background: url(../images/daniela-kirsch_web3.jpg) bottom center;
+    background: url(../images/bg2.jpg) bottom center;
     background-position: center;
     background-size: cover;
-    padding-bottom: 350px;
-    padding-top: 280px; } }
+    padding-bottom: 80px;
+    padding-top: 80px; } }
 
 @media screen and (min-width: 65em) {
   .hireme-box {
