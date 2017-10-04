@@ -4727,12 +4727,15 @@ a.thumbnail {
 
 .marketing-hero {
   overflow: visible;
-  padding: 2.5rem 0 4.5rem;
+  padding: 1rem 0 1rem;
   position: relative;
   text-align: center; }
 
 .hero-main-header {
   color: #FFF; }
+
+p.hero-main-header {
+  margin-bottom: 0; }
 
 .socialmedia img {
   width: 100%;
@@ -4751,13 +4754,14 @@ h5 {
   margin-bottom: 10px;
   margin-top: 10px; }
 
+h1.hero-main-header {
+  font-weight: bold;
+  font-size: 42px; }
+
 .socialmedia span {
   width: 100%;
   display: block;
   padding-top: 10px; }
-
-h1.hero-main-header {
-  font-family: 'Montserrat', sans-serif; }
 
 h2.hero-main-header {
   font-style: italic; }
@@ -4831,7 +4835,7 @@ h4.work {
   background: url(../images/bg2.jpg) bottom center;
   background-size: cover; }
 
-@media screen and (min-width: 43.75em) {
+@media screen and (min-width: 50em) {
   .marketing-hero.home-large-hero {
     background: url(../images/bg2.jpg) bottom center;
     background-position: center;

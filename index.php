@@ -131,7 +131,7 @@
 
 <header class="marketing-hero home-large-hero">
     <div class="row">
-        <div class="small-8 medium-6 medium-offset-3 end columns">
+        <div class="small-12 medium-6 medium-offset-3 end columns">
             <p class="hero-main-header">Hey, I'm</p>
             <h1 class="hero-main-header">Daniela Kirsch</h1>
             
@@ -139,7 +139,7 @@
     </div>
 
     <div class="row">
-        <div class="small-6 medium-offset-3  end columns">
+        <div class="small-12  end columns">
             <p class="hero-main-header">NYC Freelance Full Stack Web-Developer <br>& Founder of <a href='http://nameface.com' >NameFace.com</a></p>
              
         </div>
@@ -164,14 +164,14 @@
           
             <p>I'm a Full Stack Web-Developer with over 17+ years experience in coding, planning and managing web projects in the startup, ad agency, and entertainment industry. Proven record of 50+ web projects from zero to online.</p>
 
-            <p>I'm a fast learner, very adaptable, hands-on mentality, always curious, strong work ethic, dedicated, excel in time-sensitive projects, organized, cosmopolitan, social media savvy.</p>
+            <!-- <p>I'm a fast learner, very adaptable, hands-on mentality, always curious, strong work ethic, dedicated, excel in time-sensitive projects, organized, cosmopolitan, social media savvy.</p> -->
 
         
 
             
             <p>I'm looking forward to working on your projects!</p>
 
-            <p >Contact me: <a href="mailto:daniela@nameface.com">daniela@nameface.com</a></p>
+            <p >Contact me: Daniela Kirsch <a href="mailto:daniela@nameface.com">daniela@nameface.com</a></p>
             
         </div>
     </div>
